@@ -1,0 +1,1 @@
+LoginResponseDto = Data.define(:member)

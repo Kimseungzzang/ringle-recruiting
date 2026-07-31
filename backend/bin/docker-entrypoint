@@ -1,0 +1,7 @@
+#!/bin/bash -e
+
+# Schema changes are applied only via an explicit `rails db:migrate` run,
+# never automatically on boot. Run it yourself before starting the server
+# when there are pending migrations.
+
+exec "${@}"
